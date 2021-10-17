@@ -1,5 +1,11 @@
-# semantic-tech
+# Semantic-tech
 
-A repository of examples and exercises related to semantic web technologies
+A repository of commented semantic web technology examples:
+
+- RDF graphs
+- RDFS schemas
+- OWL ontologies
+- SPARQL queries
+
 
 
