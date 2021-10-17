@@ -1,10 +1,10 @@
 # The Mondial Database (with some additions)
 
-The database home is http://www.dbis.informatik.uni-goettingen.de/Mondial/
+The database home is http://www.dbis.informatik.uni-goettingen.de/Mondial/ . Consult the [E-R diagram](http://www.dbis.informatik.uni-goettingen.de/Mondial/mondial-ER.pdf) for information about the graph content.
 
 The RDF graph in Turtle is at http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial.n3
 
-FlowThrough.ttl contains additional triples to represent more precisely the fact the a river flows through a lake. In the original graph we have triples of the form 
+The file _FlowThrough.ttl_ contains additional triples to represent more precisely the fact that a river flows through a lake. In the original graph we have triples of the form 
 
     <thisRiver> :flowsThrough <thisLake>
     
