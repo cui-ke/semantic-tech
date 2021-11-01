@@ -45,80 +45,80 @@
 
 
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Bann> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lough+Neagh> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Lågen> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Mjoesa-See> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Österdalälv> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Siljan> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Umeälv> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Storuman> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Vuoksi> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Saimaa> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rhein> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Bodensee> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Aare> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Thunersee> ;   :seq 2 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Aare> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Brienzersee> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Reuss> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Vierwaldstättersee> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rhone> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lac+Leman> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Durance> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lac+de+Serre-Ponçon> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Ticino> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+Maggiore> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Adda> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+di+Como> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Tirso> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+Omodeo> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Ammer> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ammersee> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Würm> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Starnberger+See> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Alz> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Chiemsee> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Jordan> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Genezareth> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Wyg> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Wygozero> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Bann/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lough+Neagh/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Lågen/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Mjoesa-See/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Österdalälv/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Siljan/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Umeälv/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Storuman/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Vuoksi/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Saimaa/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rhein/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Bodensee/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Aare/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Thunersee/> ;   :seq 2 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Aare/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Brienzersee/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Reuss/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Vierwaldstättersee/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rhone/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lac+Leman/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Durance/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lac+de+Serre-Ponçon/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Ticino/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+Maggiore/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Adda/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+di+Como/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Tirso/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+Omodeo/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Ammer/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ammersee/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Würm/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Starnberger+See/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Alz/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Chiemsee/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Jordan/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Genezareth/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Wyg/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Wygozero/> ;   :seq 1 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Dnepr> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kiev+Reservoir> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Dnepr> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kakhovka+Reservoir> ;   :seq 3 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Dnepr> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kremenchuk+Reservoir> ;   :seq 2 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Dnepr/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kiev+Reservoir/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Dnepr/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kakhovka+Reservoir/> ;   :seq 3 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Dnepr/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kremenchuk+Reservoir/> ;   :seq 2 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Volga> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Rybinsk+Reservoir> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Volga> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kuybyshev+Reservoir> ;   :seq 2 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Volga/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Rybinsk+Reservoir/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Volga/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kuybyshev+Reservoir/> ;   :seq 2 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Kama> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kama+Reservoir> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Kama> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lower+Kama+Reservoir> ;   :seq 2 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Kama/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kama+Reservoir/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Kama/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lower+Kama+Reservoir/> ;   :seq 2 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Chantaika> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ozero+Khantayskoye> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Angara> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ozero+Baikal> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Pyasina> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ozero+Keta> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Taimyra> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ozero+Taimyr> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Murgab> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Koli+Sarez> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Huai> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Hongze+Hu> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Yangtze> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Dongting+Hu> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Gan+Jiang> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Poyang+Hu> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Mae+Nam+Ping> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Bhumibol> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Mae+Nam+Nan> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Sirikit> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Satluj> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Rakshastal> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Chantaika/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ozero+Khantayskoye/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Angara/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ozero+Baikal/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Pyasina/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ozero+Keta/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Taimyra/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Ozero+Taimyr/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Murgab/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Koli+Sarez/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Huai/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Hongze+Hu/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Yangtze/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Dongting+Hu/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Gan+Jiang/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Poyang+Hu/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Mae+Nam+Ping/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Bhumibol/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Mae+Nam+Nan/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Sirikit/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Satluj/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Rakshastal/> ;   :seq 1 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Missouri> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Fort+Peck+Lake> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Missouri> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Sakakawea> ;   :seq 2 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Missouri> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Oahe> ;   :seq 3 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Missouri/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Fort+Peck+Lake/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Missouri/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Sakakawea/> ;   :seq 2 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Missouri/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Oahe/> ;   :seq 3 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Tennessee+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kentucky+Lake> ;   :seq 2 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Tennessee+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Chickamauga+Lake> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Tennessee+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Kentucky+Lake/> ;   :seq 2 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Tennessee+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Chickamauga+Lake/> ;   :seq 1 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Columbia+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Franklin.+D.+Roosevelt+Lake> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Feather+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Oroville> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Columbia+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Franklin.+D.+Roosevelt+Lake/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Feather+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Oroville/> ;   :seq 1 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Colorado> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Powell> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Colorado> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Mead> ;   :seq 2 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Colorado/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Powell/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Colorado/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Mead/> ;   :seq 2 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Lerma+Santiago> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+de+Chapala> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Lerma+Santiago/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+de+Chapala/> ;   :seq 1 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Grijalva> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Presa+Malpaso> ;   :seq 2 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Grijalva> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Presa+Angostura> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Grijalva/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Presa+Malpaso/> ;   :seq 2 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Grijalva/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Presa+Angostura/> ;   :seq 1 ] .
 
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Chepo> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Bayano> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Sao+Francisco> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+de+Sobradinho> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Bandama> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Kossou> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Volta> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Volta> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Niger> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Kainji> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Nile> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Nasser> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Victoria+Nile> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Kyoga> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Sanaga> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Barrage+de+Mbakaou> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Zaire> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Malebo+Pool> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Zambezi> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Cahora-Bassa> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Zambezi> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Kariba> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Murray+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Hume> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Lachlan+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Burley+Griffin> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Molonglo+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Burley+Griffin> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Eucumbene+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Eucumbene> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Snowy+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Jindabyne> ;   :seq 1 ] .
-[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Waikato+River> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Taupo> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Chepo/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Bayano/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Rio+Sao+Francisco/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lago+de+Sobradinho/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Bandama/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Kossou/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Volta/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Volta/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Niger/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Kainji/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Nile/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Nasser/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Victoria+Nile/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Kyoga/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Sanaga/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Barrage+de+Mbakaou/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Zaire/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Malebo+Pool/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Zambezi/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Cahora-Bassa/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Zambezi/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Kariba/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Murray+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Hume/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Lachlan+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Burley+Griffin/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Molonglo+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Burley+Griffin/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Eucumbene+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Eucumbene/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Snowy+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Jindabyne/> ;   :seq 1 ] .
+[ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Waikato+River/> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lake+Taupo/> ;   :seq 1 ] .
