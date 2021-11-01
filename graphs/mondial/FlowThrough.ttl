@@ -1,36 +1,42 @@
 @prefix : <http://www.semwebtech.org/mondial/10/meta#> .
 
-:FlowThrough a owl:Class ; rdfs:SubClassOf
-     [a owl:Restriction; 
-        owl:onProperty :river; owl:allValuesFrom :River], 
-     [a owl:Restriction; 
-        owl:onProperty :river; owl:onClass :River; 
-        owl:qualifiedCardinality 1],
+:FlowThrough rdf:type owl:Class ;
+             rdfs:subClassOf 
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :river ;
+                               owl:allValuesFrom :River
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :through ;
+                               owl:allValuesFrom :Lake
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :river ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :River
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :through ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Lake
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :seq ;
+                               owl:allValuesFrom xsd:decimal
+                             ] .
 
-     [a owl:Restriction; 
-        owl:onProperty :through; owl:allValuesFrom :Lake], 
-     [a owl:Restriction; 
-        owl:onProperty :throught; owl:onClass :Lake; 
-        owl:qualifiedCardinality 1],
+:river rdf:type owl:ObjectProperty ,
+                owl:FunctionalProperty ;
+       rdfs:domain :FlowThrough ;
+       rdfs:range :River .
 
-     [a owl:Restriction; 
-        owl:onProperty :seq; owl:onClass xsd:decimal; 
-        owl:qualifiedCardinality 1],
+:through rdf:type owl:ObjectProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :FlowThrough ;
+         rdfs:range :Lake .
 
+:seq rdf:type owl:DatatypeProperty .
 
-:river a owl:ObjectProperty; a owl:FunctionalProperty; 
-  rdfs:domain :FlowThrough;
-  rdfs:range :River.
-
-
-:through a owl:ObjectProperty; a owl:FunctionalProperty; 
-  rdfs:domain :FlowThrough;
-  rdfs:range :Lake.
-
-
-:lake a owl:DatatypeProperty; a owl:FunctionalProperty; 
-  rdfs:domain :FlowThrough;
-  rdfs:range xsd:decimal.
 
 
 [ a :FlowThrough ;   :river <http://www.semwebtech.org/mondial/10/rivers/Bann> ;   :through <http://www.semwebtech.org/mondial/10/lakes/Lough+Neagh> ;   :seq 1 ] .
