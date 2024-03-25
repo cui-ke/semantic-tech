@@ -1,11 +1,11 @@
 # Semantic-tech
 
-A repository of commented semantic web technology examples:
+A repository of semantic web learning material
 
-- RDF graphs
-- RDFS schemas
-- OWL ontologies
-- SPARQL queries
+- Lecture notes and exercises
+- RDF graph examples
+- OWL ontology examples
+
 
 
 
