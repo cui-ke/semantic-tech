@@ -1,0 +1,901 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usepackage{beamerthemeMadrid}%dark %tab
+\usecolortheme{beaver} %albatross} %crane} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Ontologies and multilingualism
+\end_layout
+
+\begin_layout Author
+G.
+ Falquet, J.
+ Guyot
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+1.1 Theoretical connections
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the lexicon of each natural language provides a conceptualization of the
+ world.
+\end_layout
+
+\begin_layout Itemize
+to avoid circularity some primitive or basic concepts are not defined within
+ the ontology, a kind of 
+\begin_inset Quotes eld
+\end_inset
+
+common
+\begin_inset Quotes erd
+\end_inset
+
+ definition is used (the definition in usual dictionaries) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+in CityGML: Water Bodies sub-model refers to water body classes such as
+ lake, river, ditch, bayou that are not defined in this ontology
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+the only way to anchor an ontology in a real domain (meaningful identifiers)
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+1.2 Practical connections 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+domain specific information sources such as dictionaries, reference texts,
+ legal texts, and many other types of documents are expressed in some natural
+ language.
+ 
+\end_layout
+
+\begin_layout Itemize
+any usable ontology should be consistent with this terminology and the conceptua
+lization it induces.
+ 
+\end_layout
+
+\begin_layout Itemize
+when creating new concepts, their name is constructed from (combinations
+ of) existing linguistic forms.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+1.3 Multilingualism 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An ontology may serve as a common reference for an international community
+ 
+\end_layout
+
+\begin_layout Itemize
+In ontology driven user interfaces
+\end_layout
+
+\begin_layout Itemize
+In semantic indexing of large multilingual text corpuses 
+\end_layout
+
+\begin_layout Itemize
+The information sources required to build an ontology may exist only in
+ some languages 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the development process must take into account several languages 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+− When an ontology needs to be localized 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+1.4 Ontologies and point of views 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+it can be useful to consider each point of view as a different language.
+ 
+\end_layout
+
+\begin_layout Itemize
+domain specialists have developed specific vocabularies to exchange information
+ in a precise and non-ambiguous way.
+ 
+\end_layout
+
+\begin_layout Itemize
+when a human activity spans several domains, the involved actors may experience
+ communication problems due to this diversity of vocabularies.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+In urbanism related activities: urban engineers, architects, politicians,
+ transportation engineers, or citizen organizations participate in decision
+ processes.
+ 
+\end_layout
+
+\begin_layout Itemize
+each one of these groups possesses its own vocabulary and conceptualization
+ of the world, 
+\end_layout
+
+\begin_layout Itemize
+improving communication between them cannot rely on the development of a
+ single “monolingual” ontology.
+ 
+\end_layout
+
+\begin_layout Itemize
+a situation that is similar to multilingualism or multiculturalism.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+2.1 The basic concept-centric approach
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+attach linguistic forms to a (neutral) concept
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename concept-centric.pdf
+	width 99text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Problems
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The lexical information attached to a concept is limited to a character
+ string, so there is no possibility to define relationships between lexical
+ forms or to build sophisticated lexical structures 
+\end_layout
+
+\begin_layout Enumerate
+The lexical forms (labels) are strictly equivalent, i.e.
+ each label of a concept is supposed to designate exactly this concept.
+ This can be true for very specialized domains but that is rarely the case
+ for wider domains.
+ 
+\end_layout
+
+\begin_layout Enumerate
+In RDFS or OWL a string can be qualified with a language name, but not with
+ a region, social class, activity, ...
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+2.2 Concept-centric with structured linguistic elements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+conceptual
+\begin_inset space ~
+\end_inset
+
+level: 
+\series default
+intended to represent the concepts (or meanings) and their definitions.
+ ontological elements 
+\end_layout
+
+\begin_layout Enumerate
+terminological
+\begin_inset space ~
+\end_inset
+
+level: made of terms, which are associations between concepts and lexical
+ forms.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the chemical term 
+\begin_inset Flex Alert
+status open
+
+\begin_layout Plain Layout
+acid
+\end_layout
+
+\end_inset
+
+ associates the linguistic form 
+\begin_inset Flex Alert
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+acid
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ to the concept defined as a 
+\emph on
+
+\begin_inset Flex Alert
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+compound which donates a hydrogen ion to another compound in a reaction
+\emph default
+.
+\end_layout
+
+\end_inset
+
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Itemize
+terminological relationships such as antonymy.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+lexical
+\begin_inset space ~
+\end_inset
+
+level: forms, which are character strings used in written language.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+lexical relationships such as plural or other inflectional variants.
+ .
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Another model (Aguado de Cea, 2009) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Lexical layer: characters and symbols that make up the syntax (ASCII encoding,
+ UNICODE, etc.)
+\end_layout
+
+\begin_layout Enumerate
+Syntactic layer: structure of characters and symbols, i.e., the grammar.
+ It embraces different representation languages (e.g.
+ RDF(S), OWL, etc.) 
+\end_layout
+
+\begin_layout Enumerate
+Representation paradigm layer: paradigm followed in the representation of
+ the ontology (frames, semantic networks, DL, etc.) that allows a certain
+ way of expressing and structuring knowledge 
+\end_layout
+
+\begin_layout Enumerate
+Terminological layer: terms or labels selected to name ontology elements
+ 
+\end_layout
+
+\begin_layout Enumerate
+Conceptual layer: related to conceptualization decisions, such as granularity,
+ expressiveness, perspective, etc.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Pragmatic layer: final layout of the model according to user’s needs
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The LIR model 1 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-3"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename LIR-model.pdf
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+LIR model 2 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename LIR-model-2.pdf
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+2.3 Interconnection and alignment approach
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+maintain separate ontologies, one for each language, 
+\end_layout
+
+\begin_layout Itemize
+an interconnection structure links equivalent concepts
+\end_layout
+
+\begin_layout Description
+\begin_inset Graphics
+	filename ILI.pdf
+	width 99text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Applications: finding translations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename aligned-concepts.pdf
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Application: Multilingual information retrieval
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+the information need is expressed by a set of keywords or key phrases or
+ sen-tences in the user’s own languages 
+\end_layout
+
+\begin_layout Enumerate
+the document corpus contains documents written in different natural languages
+ 
+\end_layout
+
+\begin_layout Standard
+The basic idea is to replace each term that appears in a document or in
+ the query by a concept identifier.
+ Then it becoms possible to apply mono-lingual IR techniques, simply replacing
+ the word space by the concept identifier space.
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Tasks in MLIR
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+
+\end_layout
+
+\begin_layout Description
+Disambiguation.
+ find the concept that corresponds to an ambiguous lexical form
+\end_layout
+
+\begin_layout Description
+Reasoning.
+ documents that do not match the query at the keyword level are nevertheless
+ relevant.
+ 
+\end_layout
+
+\begin_layout Description
+Interactive search.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+faceted
+\begin_inset space ~
+\end_inset
+
+search, proposes to build the user query by navigating within (subsets of)
+ the domain ontology.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Application: Semantic Annotation of Documents 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+A semantic annotation, in its simplest form, is a list of concepts belonging
+ to a domain ontology.
+ 
+\end_layout
+
+\begin_layout Standard
+A more precise kind of annotation consists in semantic graphs, for instance
+ RDF graphs.
+ In this case the graph nodes correspond to individuals that are concept
+ instances and the labeled edges represent semantic relations between these
+ individuals.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ontologies for semantic annotation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Terminologically rich and multilingual ontologies play a key role to enable
+ semantic annotation.
+ 
+\end_layout
+
+\begin_layout Enumerate
+They serve as references for labeling the graph nodes (with concept identifiers)
+ and the graph edges (with relation identifiers).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Automatically annotating large collections of documents requires natural
+ language processing tools (in particular parsers) to recognize the lexical
+ forms corresponding to concepts and concept instances.
+ These tools must be provided with adequate lexical information.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Natural language processing tools can take advantage of ontological knowledge
+ to solve syntax analysis problems.
+ For instance, ambiguous sentences may be disambiguated if some domain knowledge
+ is available.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+References
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Guadalupe Aguado de Cea, Mauricio Espinoza, Asunción Gómez-Pérez, Margherita
+ Sini.
+ (2009).
+ Multilingual and Localization Support for Ontologies.
+ Retrieved February 17, 2009, from http://www.neon-project.org/web-content/images/
+Publications/neon_2008_d242.pdf 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+E.
+ Montiel-Ponsoda, G.
+ Aguado de Cea, A.
+ Gómez-Pérez, and W.
+ Peters.
+ Modelling Multilinguality in ontologies.
+ In Proceedings of the Coling08 Conference, in Manchester, UK.
+ August 2008.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+W.
+ Peters, E.
+ Montiel-Ponsoda, G.
+ Aguado de Cea.
+ Localizing Ontologies in OWL.
+ In Proceedings of the OntoLex07 Workshop, co-located at the ISWC 2007 Conferenc
+e in Busan, South Corea.
+ 2007.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
