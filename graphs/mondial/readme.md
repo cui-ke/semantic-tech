@@ -8,7 +8,7 @@ The file _FlowThrough.ttl_ contains additional triples to represent more precise
 
     <thisRiver> :flowsThrough <thisLake>
     
-However, if a river flows through several lakes there is no information about the order of the lakes along the course of the river. This file defines a class :FlowThrough whose memeber are typically defined by
+However, if a river flows through several lakes there is no information about the order of the lakes along the course of the river. This file defines a class :FlowThrough whose members are typically defined by
 
     [ a :FlowTrough ; :river <aRiver> ; :through <aLake> ; :seq <sequence no. of this lake for this river> ]
     
