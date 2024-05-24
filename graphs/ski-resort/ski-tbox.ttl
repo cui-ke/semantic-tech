@@ -1,0 +1,257 @@
+@prefix : <http://cui.unige.ch/tws/ski-onto#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://cui.unige.ch/tws/ski-onto#end
+:end rdf:type owl:ObjectProperty ;
+     owl:inverseOf :endof .
+
+
+###  http://cui.unige.ch/tws/ski-onto#endof
+:endof rdf:type owl:ObjectProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#first
+:first rdf:type owl:ObjectProperty ;
+       owl:inverseOf :firstof .
+
+
+###  http://cui.unige.ch/tws/ski-onto#firstof
+:firstof rdf:type owl:ObjectProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#geometry
+:geometry rdf:type owl:ObjectProperty ;
+          owl:inverseOf :geometryof .
+
+
+###  http://cui.unige.ch/tws/ski-onto#geometryof
+:geometryof rdf:type owl:ObjectProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#location
+:location rdf:type owl:ObjectProperty ;
+          owl:inverseOf :locationof .
+
+
+###  http://cui.unige.ch/tws/ski-onto#locationof
+:locationof rdf:type owl:ObjectProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#nearby
+:nearby rdf:type owl:ObjectProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#rest
+:rest rdf:type owl:ObjectProperty ;
+      owl:inverseOf :restof .
+
+
+###  http://cui.unige.ch/tws/ski-onto#restof
+:restof rdf:type owl:ObjectProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#start
+:start rdf:type owl:ObjectProperty ;
+       owl:inverseOf :startof .
+
+
+###  http://cui.unige.ch/tws/ski-onto#startof
+:startof rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://cui.unige.ch/tws/ski-onto#aerialway
+:aerialway rdf:type owl:DatatypeProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#amenity
+:amenity rdf:type owl:DatatypeProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#lat
+:lat rdf:type owl:DatatypeProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#lon
+:lon rdf:type owl:DatatypeProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#name
+:name rdf:type owl:DatatypeProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#piste_difficulty
+:piste_difficulty rdf:type owl:DatatypeProperty .
+
+
+###  http://cui.unige.ch/tws/ski-onto#piste_type
+:piste_type rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://cui.unige.ch/tws/ski-onto#Amenity
+:Amenity rdf:type owl:Class .
+
+
+###  http://cui.unige.ch/tws/ski-onto#EasySkiRun
+:EasySkiRun rdf:type owl:Class ;
+            rdfs:subClassOf :SkiRun .
+
+
+###  http://cui.unige.ch/tws/ski-onto#Lift
+:Lift rdf:type owl:Class ;
+      rdfs:subClassOf :SkiWay .
+
+
+###  http://cui.unige.ch/tws/ski-onto#ListInGeometry
+:ListInGeometry rdf:type owl:Class .
+
+
+###  http://cui.unige.ch/tws/ski-onto#Place
+:Place rdf:type owl:Class .
+
+
+###  http://cui.unige.ch/tws/ski-onto#PlaceNearbyResto
+:PlaceNearbyResto rdf:type owl:Class ;
+                  rdfs:subClassOf :Place .
+
+
+###  http://cui.unige.ch/tws/ski-onto#PlaceOnRun
+:PlaceOnRun rdf:type owl:Class ;
+            rdfs:subClassOf :Place .
+
+
+###  http://cui.unige.ch/tws/ski-onto#Resto
+:Resto rdf:type owl:Class ;
+       rdfs:subClassOf :Amenity .
+
+
+###  http://cui.unige.ch/tws/ski-onto#RestoLift
+:RestoLift rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :end ;
+                                                 owl:someValuesFrom :PlaceNearbyResto
+                                               ]
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :start ;
+                                                 owl:someValuesFrom :PlaceNearbyResto
+                                               ]
+                                             )
+                               ] ;
+           rdfs:subClassOf :Lift .
+
+
+###  http://cui.unige.ch/tws/ski-onto#RestoOnSkiRun
+:RestoOnSkiRun rdf:type owl:Class ;
+               rdfs:subClassOf :Resto .
+
+
+###  http://cui.unige.ch/tws/ski-onto#SkiRun
+:SkiRun rdf:type owl:Class ;
+        rdfs:subClassOf :SkiWay .
+
+
+###  http://cui.unige.ch/tws/ski-onto#SkiWay
+:SkiWay rdf:type owl:Class .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:Class ;
+  owl:unionOf ( [ rdf:type owl:Restriction ;
+                  owl:onProperty :geometryof ;
+                  owl:someValuesFrom owl:Thing
+                ]
+                [ rdf:type owl:Restriction ;
+                  owl:onProperty :restof ;
+                  owl:someValuesFrom :ListInGeometry
+                ]
+              ) ;
+  rdfs:subClassOf :ListInGeometry
+] .
+
+
+[ rdf:type owl:Class ;
+  owl:unionOf ( [ rdf:type owl:Restriction ;
+                  owl:onProperty :locationof ;
+                  owl:someValuesFrom :Resto
+                ]
+                [ rdf:type owl:Restriction ;
+                  owl:onProperty :nearby ;
+                  owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                       owl:onProperty :locationof ;
+                                       owl:someValuesFrom :Resto
+                                     ]
+                ]
+              ) ;
+  rdfs:subClassOf :PlaceNearbyResto
+] .
+
+
+[ rdf:type owl:Restriction ;
+  owl:onProperty :firstof ;
+  owl:someValuesFrom :ListInGeometry ;
+  rdfs:subClassOf :PlaceOnRun
+] .
+
+
+[ rdf:type owl:Restriction ;
+  owl:onProperty :location ;
+  owl:someValuesFrom [ rdf:type owl:Restriction ;
+                       owl:onProperty :nearby ;
+                       owl:someValuesFrom :PlaceOnRun
+                     ] ;
+  rdfs:subClassOf :RestoOnSkiRun
+] .
+
+
+[ rdf:type owl:Restriction ;
+  owl:onProperty :aerialway ;
+  owl:someValuesFrom rdfs:Literal ;
+  rdfs:subClassOf :Lift
+] .
+
+
+[ rdf:type owl:Restriction ;
+  owl:onProperty :piste_type ;
+  owl:someValuesFrom rdfs:Literal ;
+  rdfs:subClassOf :SkiRun
+] .
+
+
+[ rdf:type owl:Restriction ;
+  owl:onProperty :amenity ;
+  owl:hasValue "restaurant" ;
+  rdfs:subClassOf :Resto
+] .
+
+
+[ rdf:type owl:Restriction ;
+  owl:onProperty :piste_difficulty ;
+  owl:hasValue "easy" ;
+  rdfs:subClassOf :EasySkiRun
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
