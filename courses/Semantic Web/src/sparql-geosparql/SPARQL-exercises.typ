@@ -55,6 +55,18 @@ where {
     filter  (?a != "German" )
 }
 ```
+#solution[
+Q1 :
+```
+x:d
+```
+
+Q2 :
+```
+x:e
+blank node (from x:a x:friend_of [x:speaks "Japanese", ...])
+```
+]
 
 = Querying friend-of-a-friend (foaf) graphs.  	
 The FOAF vocabulary contains (among others) the classes 
